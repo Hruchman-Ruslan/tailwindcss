@@ -23,8 +23,7 @@ export default function Group({}: GroupProps) {
           </h3>
         </div>
         <p className='text-sm text-slate-500 group-hover:text-white'>
-          Create a new project from a
-          variety of starting templates.
+          Create a new project from a variety of starting templates.
         </p>
       </Link>
     </section>

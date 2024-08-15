@@ -27,15 +27,9 @@ export interface GroupNameProps {}
 export default function GroupName({}: GroupNameProps) {
   return (
     <section className='p-10'>
-      <ul
-        role='list'
-        className='max-w-xs rounded-lg'
-      >
+      <ul role='list' className='max-w-xs rounded-lg'>
         {people.map((person, index) => (
-          <li
-            key={index}
-            className='group/item hover:bg-slate-100'
-          >
+          <li key={index} className='group/item hover:bg-slate-100'>
             <>
               <Image
                 src={person.imageUrl}
@@ -43,9 +37,7 @@ export default function GroupName({}: GroupNameProps) {
                 className='size-20 rounded-full'
               />
               <div>
-                <Link href='#'>
-                  {person.name}
-                </Link>
+                <Link href='#'>{person.name}</Link>
                 <p>{person.title}</p>
               </div>
             </>
@@ -54,9 +46,7 @@ export default function GroupName({}: GroupNameProps) {
                 className='group/edit invisible hover:bg-slate-200 group-hover/item:visible'
                 href='#'
               >
-                <span className='group-hover/edit:text-gray-700'>
-                  Call
-                </span>
+                <span className='group-hover/edit:text-gray-700'>Call</span>
                 <Image
                   className='size-5 group-hover/edit:translate-x-0.5 group-hover/edit:text-slate-500'
                   src={phone}
