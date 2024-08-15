@@ -3,7 +3,7 @@
   "bracketSpacing": true,
   "bracketSameLine": false,
   "jsxSingleQuote": true,
-  "printWidth": 40,
+  "printWidth": 80,
   "proseWrap": "never",
   "quoteProps": "as-needed",
   "semi": true,
@@ -13,7 +13,5 @@
   "singleAttributePerLine": false,
   "endOfLine": "lf",
   "tailwindConfig": "./tailwind.config.ts",
-  "plugins": [
-    "prettier-plugin-tailwindcss"
-  ]
+  "plugins": ["prettier-plugin-tailwindcss"]
 }

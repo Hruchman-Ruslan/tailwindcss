@@ -9,19 +9,11 @@ export default function Message({}: MessageProps) {
     <section className='p-10'>
       <div className='mx-auto flex max-w-sm items-center space-x-4 rounded-xl bg-white p-6 shadow-lg'>
         <div className='shrink-0'>
-          <Image
-            src={message}
-            className='size-12'
-            alt='ChitChat Logo'
-          />
+          <Image src={message} className='size-12' alt='ChitChat Logo' />
         </div>
         <div>
-          <div className='text-xl font-medium text-black'>
-            ChitChat
-          </div>
-          <p className='text-slate-500'>
-            You have a new message!
-          </p>
+          <div className='text-xl font-medium text-black'>ChitChat</div>
+          <p className='text-slate-500'>You have a new message!</p>
         </div>
       </div>
     </section>

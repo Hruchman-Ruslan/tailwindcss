@@ -15,12 +15,8 @@ export default function Profile({}: ProfileProps) {
         />
         <div className='space-y-2 text-center sm:text-left'>
           <div className='space-y-0.5'>
-            <p className='text-lg font-semibold text-black'>
-              Ruslan Hruchman
-            </p>
-            <p className='font-medium text-slate-500'>
-              Full-Stack
-            </p>
+            <p className='text-lg font-semibold text-black'>Ruslan Hruchman</p>
+            <p className='font-medium text-slate-500'>Full-Stack</p>
           </div>
           <button className='rounded-full border border-purple-200 px-4 py-1 text-sm font-semibold text-purple-600 hover:border-transparent hover:bg-purple-600 hover:text-white focus:outline-none focus:ring-2 focus:ring-purple-600 focus:ring-offset-2'>
             Message

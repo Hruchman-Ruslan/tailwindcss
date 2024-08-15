@@ -4,17 +4,16 @@
     "prettier",
     "plugin:tailwindcss/recommended"
   ],
-  "plugins": [
-    "prettier",
-    "tailwindcss"
-  ],
+  "plugins": ["prettier", "tailwindcss"],
   "rules": {
-    "prettier/prettier": "error",
-    "no-console": "warn",
-    "no-unused-vars": [
+    "prettier/prettier": [
       "error",
-      { "args": "none" }
+      {
+        "endOfLine": "auto"
+      }
     ],
+    "no-console": "warn",
+    "no-unused-vars": ["error", { "args": "none" }],
     "tailwindcss/classnames-order": "warn",
     "tailwindcss/no-custom-classname": "warn"
   }
