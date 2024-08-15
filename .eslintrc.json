@@ -9,7 +9,12 @@
     "tailwindcss"
   ],
   "rules": {
-    "prettier/prettier": "error",
+    "prettier/prettier": [
+      "error",
+      {
+        "endOfLine": "auto"
+      }
+    ],
     "no-console": "warn",
     "no-unused-vars": [
       "error",
