@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-import photo from '../../public/photo.jpg';
+import photo from '/public/photo.jpg';
 
 export interface ProfileProps {}
 
