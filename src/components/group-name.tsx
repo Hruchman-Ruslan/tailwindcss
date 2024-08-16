@@ -1,8 +1,8 @@
 import Image from 'next/image';
+import Link from 'next/link';
 
 import phone from '/public/phone.svg?url';
 import photo from '/public/photo.jpg';
-import Link from 'next/link';
 
 const people = [
   {
