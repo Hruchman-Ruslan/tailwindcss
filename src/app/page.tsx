@@ -1,7 +1,9 @@
 import BeforeAndAfter from '@/components/before-and-after';
 import ButtonForm from '@/components/button-form';
 import Checked from '@/components/checked';
+import First from '@/components/first';
 import Form from '@/components/form';
+import Grid from '@/components/grid';
 import Group from '@/components/group';
 import GroupName from '@/components/group-name';
 import ListStyle from '@/components/list-style';
@@ -26,6 +28,8 @@ export default function Home() {
       <ButtonForm />
       <ListStyle />
       <SelectText />
+      <First />
+      <Grid />
     </>
   );
 }
