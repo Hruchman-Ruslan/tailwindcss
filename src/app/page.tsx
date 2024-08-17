@@ -1,6 +1,7 @@
 import BeforeAndAfter from '@/components/before-and-after';
 import ButtonForm from '@/components/button-form';
 import Checked from '@/components/checked';
+import Details from '@/components/details';
 import First from '@/components/first';
 import Form from '@/components/form';
 import Grid from '@/components/grid';
@@ -34,6 +35,7 @@ export default function Home() {
       <Grid />
       <Print />
       <Support />
+      <Details />
     </>
   );
 }
