@@ -8,6 +8,9 @@ const config: Config = {
   ],
   theme: {
     extend: {},
+    supports: {
+      grid: 'display: grid',
+    },
   },
   plugins: [],
 };
