@@ -9,8 +9,10 @@ import GroupName from '@/components/group-name';
 import ListStyle from '@/components/list-style';
 import Message from '@/components/message';
 import Placeholder from '@/components/placeholder';
+import Print from '@/components/print';
 import Profile from '@/components/profile';
 import SelectText from '@/components/selection-text';
+import Support from '@/components/support';
 import ValidForm from '@/components/valid-form';
 
 export default function Home() {
@@ -30,6 +32,8 @@ export default function Home() {
       <SelectText />
       <First />
       <Grid />
+      <Print />
+      <Support />
     </>
   );
 }
