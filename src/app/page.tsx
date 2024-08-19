@@ -1,3 +1,4 @@
+import ApplyButton from '@/components/apply-button';
 import BeforeAndAfter from '@/components/before-and-after';
 import ButtonForm from '@/components/button-form';
 import Checked from '@/components/checked';
@@ -10,6 +11,7 @@ import GroupName from '@/components/group-name';
 import ListStyle from '@/components/list-style';
 import MediaScreen from '@/components/media-screen';
 import Message from '@/components/message';
+import NavHref from '@/components/nav-href';
 import Placeholder from '@/components/placeholder';
 import Print from '@/components/print';
 import Profile from '@/components/profile';
@@ -40,6 +42,8 @@ export default function Home() {
       <Details />
       <MediaScreen />
       <Theme />
+      <NavHref />
+      <ApplyButton />
     </>
   );
 }
