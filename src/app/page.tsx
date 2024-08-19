@@ -8,6 +8,7 @@ import Grid from '@/components/grid';
 import Group from '@/components/group';
 import GroupName from '@/components/group-name';
 import ListStyle from '@/components/list-style';
+import MediaScreen from '@/components/media-screen';
 import Message from '@/components/message';
 import Placeholder from '@/components/placeholder';
 import Print from '@/components/print';
@@ -36,6 +37,7 @@ export default function Home() {
       <Print />
       <Support />
       <Details />
+      <MediaScreen />
     </>
   );
 }
