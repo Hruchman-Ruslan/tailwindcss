@@ -15,6 +15,7 @@ import Print from '@/components/print';
 import Profile from '@/components/profile';
 import SelectText from '@/components/selection-text';
 import Support from '@/components/support';
+import Theme from '@/components/theme';
 import ValidForm from '@/components/valid-form';
 
 export default function Home() {
@@ -38,6 +39,7 @@ export default function Home() {
       <Support />
       <Details />
       <MediaScreen />
+      <Theme />
     </>
   );
 }
