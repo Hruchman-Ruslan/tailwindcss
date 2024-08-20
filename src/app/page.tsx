@@ -13,6 +13,7 @@ import MediaScreen from '@/components/media-screen';
 import Message from '@/components/message';
 import NavHref from '@/components/nav-href';
 import Placeholder from '@/components/placeholder';
+import Prefix from '@/components/prefix';
 import Print from '@/components/print';
 import Profile from '@/components/profile';
 import SelectText from '@/components/selection-text';
@@ -44,6 +45,7 @@ export default function Home() {
       <Theme />
       <NavHref />
       <ApplyButton />
+      <Prefix />
     </>
   );
 }
