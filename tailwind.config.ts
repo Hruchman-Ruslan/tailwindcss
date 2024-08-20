@@ -35,7 +35,6 @@ const config: Config = {
       borderRadius: {
         '4xl': '2rem',
       },
-      prefix: 'tw-',
       plugins: [],
     },
   },
