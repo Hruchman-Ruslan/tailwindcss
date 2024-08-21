@@ -1,5 +1,6 @@
 import ApplyButton from '@/components/apply-button';
 import BeforeAndAfter from '@/components/before-and-after';
+import Button from '@/components/button';
 import ButtonForm from '@/components/button-form';
 import Checked from '@/components/checked';
 import Details from '@/components/details';
@@ -46,6 +47,9 @@ export default function Home() {
       <NavHref />
       <ApplyButton />
       <Prefix />
+      <Button size='md' color='indigo'>
+        Test
+      </Button>
     </>
   );
 }
