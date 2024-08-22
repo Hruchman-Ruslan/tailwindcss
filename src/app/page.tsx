@@ -18,6 +18,7 @@ import Placeholder from '@/components/placeholder';
 import Prefix from '@/components/prefix';
 import Print from '@/components/print';
 import Profile from '@/components/profile';
+import Screen from '@/components/screen';
 import SelectText from '@/components/selection-text';
 import Support from '@/components/support';
 import Theme from '@/components/theme';
@@ -52,6 +53,7 @@ export default function Home() {
         Test
       </Button>
       <Blockquote />
+      <Screen />
     </>
   );
 }
