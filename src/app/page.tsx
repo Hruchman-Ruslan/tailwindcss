@@ -1,5 +1,6 @@
 import ApplyButton from '@/components/apply-button';
 import BeforeAndAfter from '@/components/before-and-after';
+import Blockquote from '@/components/blockquote';
 import Button from '@/components/button';
 import ButtonForm from '@/components/button-form';
 import Checked from '@/components/checked';
@@ -50,6 +51,7 @@ export default function Home() {
       <Button size='md' color='indigo'>
         Test
       </Button>
+      <Blockquote />
     </>
   );
 }
