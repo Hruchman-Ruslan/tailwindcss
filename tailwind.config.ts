@@ -117,6 +117,20 @@ const config: Config = {
       // primary: 'rgba(var(--color-primary), <alpha-value>)',
       // secondary: 'rgba(var(--color-secondary), <alpha-value>)',
     },
+    // spacing: {
+    //   '1': '8px',
+    //   '2': '12px',
+    //   '3': '16px',
+    //   '4': '24px',
+    //   '5': '32px',
+    //   '6': '48px',
+    // },
+    spacing: {
+      sm: '8px',
+      md: '12px',
+      lg: '16px',
+      xl: '24px',
+    },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
@@ -170,6 +184,12 @@ const config: Config = {
         blue: {
           950: '#17275c',
         },
+      },
+      spacing: {
+        '13': '3.25rem',
+        '15': '3.75rem',
+        '128': '32rem',
+        '144': '36rem',
       },
     },
   },
