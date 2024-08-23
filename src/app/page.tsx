@@ -4,6 +4,7 @@ import Blockquote from '@/components/blockquote';
 import Button from '@/components/button';
 import ButtonForm from '@/components/button-form';
 import Checked from '@/components/checked';
+import ColorButton from '@/components/color-button';
 import Details from '@/components/details';
 import First from '@/components/first';
 import Form from '@/components/form';
@@ -54,6 +55,7 @@ export default function Home() {
       </Button>
       <Blockquote />
       <Screen />
+      <ColorButton />
     </>
   );
 }
