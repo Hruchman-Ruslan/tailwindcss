@@ -1,4 +1,6 @@
+import AddVariant from '@/components/add-variant';
 import ApplyButton from '@/components/apply-button';
+import AspectRatio from '@/components/aspect-ratio';
 import BeforeAndAfter from '@/components/before-and-after';
 import Blockquote from '@/components/blockquote';
 import Button from '@/components/button';
@@ -23,6 +25,7 @@ import Screen from '@/components/screen';
 import SelectText from '@/components/selection-text';
 import Support from '@/components/support';
 import Theme from '@/components/theme';
+import Typography from '@/components/typography';
 import ValidForm from '@/components/valid-form';
 
 export default function Home() {
@@ -56,6 +59,9 @@ export default function Home() {
       <Blockquote />
       <Screen />
       <ColorButton />
+      <Typography />
+      <AspectRatio />
+      <AddVariant />
     </>
   );
 }
