@@ -4,6 +4,7 @@ import plugin from 'tailwindcss/plugin';
 
 const config: Config = {
   content: ['./src/components/**/*.{ts,tsx}', './src/app/**/*.{ts,tsx}'],
+  presets: [require('./my-preset.js')],
   theme: {
     // screens: {
     //   sm: '500px',
