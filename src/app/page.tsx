@@ -2,11 +2,15 @@ import AddVariant from '@/components/add-variant';
 import ApplyButton from '@/components/apply-button';
 import AspectRatio from '@/components/aspect-ratio';
 import BeforeAndAfter from '@/components/before-and-after';
+import BgColor from '@/components/bg-color';
 import Blockquote from '@/components/blockquote';
 import Button from '@/components/button';
 import ButtonForm from '@/components/button-form';
+import ButtonHover from '@/components/button-hover';
 import Checked from '@/components/checked';
 import ColorButton from '@/components/color-button';
+import ColorText from '@/components/color-text';
+import Columns from '@/components/columns';
 import Details from '@/components/details';
 import First from '@/components/first';
 import Form from '@/components/form';
@@ -17,6 +21,7 @@ import ListStyle from '@/components/list-style';
 import MediaScreen from '@/components/media-screen';
 import Message from '@/components/message';
 import NavHref from '@/components/nav-href';
+import OverscrollContain from '@/components/overscroll-contain';
 import Placeholder from '@/components/placeholder';
 import Prefix from '@/components/prefix';
 import Print from '@/components/print';
@@ -62,6 +67,11 @@ export default function Home() {
       <Typography />
       <AspectRatio />
       <AddVariant />
+      <Columns />
+      <ColorText />
+      <OverscrollContain />
+      <BgColor />
+      <ButtonHover />
     </div>
   );
 }

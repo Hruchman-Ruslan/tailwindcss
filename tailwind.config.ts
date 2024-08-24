@@ -177,6 +177,9 @@ const config: Config = {
     //   //   '144': '36rem',
     //   // },
     // },
+    // columns: {
+    //   '4xs': '14rem',
+    // },
   },
   plugins: [
     require('@tailwindcss/typography'),
