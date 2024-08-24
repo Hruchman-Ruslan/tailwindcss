@@ -4,8 +4,12 @@ import plugin from 'tailwindcss/plugin';
 
 const config: Config = {
   content: ['./src/components/**/*.{ts,tsx}', './src/app/**/*.{ts,tsx}'],
-  presets: [require('./my-preset.js')],
+  // presets: [require('./my-preset.js')],
   theme: {
+    container: {
+      center: true,
+      padding: '2rem',
+    },
     // screens: {
     //   sm: '500px',
     //   md: [{ min: '668px', max: '767px' }, { min: '868px' }],
