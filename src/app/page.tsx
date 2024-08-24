@@ -7,6 +7,7 @@ import Button from '@/components/button';
 import ButtonForm from '@/components/button-form';
 import Checked from '@/components/checked';
 import ColorButton from '@/components/color-button';
+import Columns from '@/components/columns';
 import Details from '@/components/details';
 import First from '@/components/first';
 import Form from '@/components/form';
@@ -62,6 +63,7 @@ export default function Home() {
       <Typography />
       <AspectRatio />
       <AddVariant />
+      <Columns />
     </div>
   );
 }
