@@ -30,7 +30,7 @@ import ValidForm from '@/components/valid-form';
 
 export default function Home() {
   return (
-    <>
+    <div className='container'>
       <Message />
       <Profile />
       <Form />
@@ -62,6 +62,6 @@ export default function Home() {
       <Typography />
       <AspectRatio />
       <AddVariant />
-    </>
+    </div>
   );
 }
