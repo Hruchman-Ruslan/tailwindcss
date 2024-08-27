@@ -1,11 +1,15 @@
+import HeaderBar from './header-bar';
 import Logo from './logo';
+import Navigation from './navigation';
 
 export interface HeaderProps {}
 
 export default function Header({}: HeaderProps) {
   return (
-    <section className='py-14'>
+    <header className='flex items-center justify-between py-14'>
       <Logo />
-    </section>
+      <Navigation />
+      <HeaderBar />
+    </header>
   );
 }
