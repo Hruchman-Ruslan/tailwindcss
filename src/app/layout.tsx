@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Viga } from 'next/font/google';
+import { Viga, Roboto } from 'next/font/google';
 import './globals.css';
 
 export const metadata: Metadata = {
@@ -10,6 +10,14 @@ export const metadata: Metadata = {
 const viga = Viga({
   subsets: ['latin'],
   weight: ['400'],
+  variable: '--font-viga',
+});
+
+const roboto = Roboto({
+  subsets: ['latin'],
+  weight: ['400', '700'],
+  display: 'swap',
+  variable: '--font-roboto',
 });
 
 export default function RootLayout({
@@ -18,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en' className={viga.className}>
+    <html lang='en' className={`${viga.variable} ${roboto.variable}`}>
       <body className='container'>{children}</body>
     </html>
   );

@@ -7,6 +7,12 @@ const config: Config = {
       center: true,
       padding: '2rem',
     },
+    extend: {
+      fontFamily: {
+        viga: ['var(--font-viga)'],
+        roboto: ['var(--font-roboto)'],
+      },
+    },
   },
 };
 

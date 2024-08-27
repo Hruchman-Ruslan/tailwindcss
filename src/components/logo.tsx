@@ -12,8 +12,8 @@ export default function Logo({}: LogoProps) {
         <Image src={logo} alt='logo' />
       </Link>
       <div>
-        <h2 className='text-xl text-white'>FUTURA</h2>
-        <p className='text-base text-neutral-600'>Today - Tomorrow</p>
+        <h2 className='font-viga text-xl text-white'>FUTURA</h2>
+        <p className='font-viga text-base text-neutral-600'>Today - Tomorrow</p>
       </div>
     </div>
   );
