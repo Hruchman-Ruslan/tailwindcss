@@ -2,8 +2,6 @@ import type { Metadata } from 'next';
 import { Viga, Roboto } from 'next/font/google';
 import './globals.css';
 
-import Background from '@/components/background';
-
 export const metadata: Metadata = {
   title: 'Tailwindcss',
   description: 'Project witch tailwindcss',
@@ -29,10 +27,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang='en' className={`${viga.variable} ${roboto.variable}`}>
-      <body className='container'>
-        <Background />
-        {children}
-      </body>
+      <body className='container'>{children}</body>
     </html>
   );
 }

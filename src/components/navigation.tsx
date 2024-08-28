@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 export interface NavigationProps {}
 
-const navItems = ['Home', 'Stories', 'Works', 'Pages', 'Contact', 'Shop'];
+const navItems = ['design', 'motion', 'engine'];
 
 export default function Navigation({}: NavigationProps) {
   return (
@@ -10,7 +10,10 @@ export default function Navigation({}: NavigationProps) {
       <ul className='flex gap-7'>
         {navItems.map(item => (
           <li key={item}>
-            <Link className='font-roboto text-lg text-white' href={`/${item}`}>
+            <Link
+              className='font-roboto text-lg uppercase text-white'
+              href={`/${item}`}
+            >
               {item}
             </Link>
           </li>
