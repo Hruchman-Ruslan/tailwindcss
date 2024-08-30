@@ -6,7 +6,7 @@ export interface HeaderProps {}
 
 export default function Header({}: HeaderProps) {
   return (
-    <header className='flex items-center justify-between py-14'>
+    <header className='flex items-center justify-between py-10'>
       <Logo />
       <Navigation />
       <HeaderBar />
