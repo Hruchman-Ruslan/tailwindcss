@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang='en' className={`${viga.variable} ${roboto.variable}`}>
+    <html lang='en' className={`dark ${viga.variable} ${roboto.variable}`}>
       <body className='container'>{children}</body>
     </html>
   );

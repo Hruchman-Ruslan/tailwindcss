@@ -3,6 +3,7 @@ import plugin from 'tailwindcss/plugin';
 
 const config: Config = {
   content: ['./src/components/**/*.{ts,tsx}', './src/app/**/*.{ts,tsx}'],
+  darkMode: 'selector',
   theme: {
     container: {
       center: true,
