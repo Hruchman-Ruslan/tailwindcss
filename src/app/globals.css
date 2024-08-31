@@ -3,5 +3,10 @@
 @tailwind utilities;
 
 body {
-  background-color: black;
+  @apply bg-black;
+}
+
+/* Встановлюємо фоновий колір для темного режиму */
+.dark body {
+  @apply bg-white;
 }

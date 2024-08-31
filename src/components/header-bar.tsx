@@ -40,7 +40,9 @@ export default function HeaderBar({}: HeaderBarProps) {
       ) : (
         <Moon className='size-8 hover-item' onClick={toggleTheme} />
       )}
-      <Search className='hover-black size-8 fill-current' />
+      <Search
+        className={`size-8 hover-item ${!isDarkMode ? 'text-white' : 'text-black'}`}
+      />
     </div>
   );
 }

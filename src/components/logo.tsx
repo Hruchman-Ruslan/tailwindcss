@@ -12,8 +12,10 @@ export default function Logo({}: LogoProps) {
         <Image src={logo} alt='logo' className='hover-item' />
       </Link>
       <div>
-        <h2 className='font-viga text-xl text-white'>FUTURA</h2>
-        <p className='font-viga text-base text-neutral-600'>Today - Tomorrow</p>
+        <h2 className='font-viga text-xl text-white dark:text-black'>FUTURA</h2>
+        <p className='font-viga text-base text-neutral-600 dark:text-black'>
+          Today - Tomorrow
+        </p>
       </div>
     </div>
   );
