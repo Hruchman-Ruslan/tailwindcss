@@ -12,7 +12,7 @@ export default function Navigation({}: NavigationProps) {
   const pathname = usePathname();
 
   const activeItem = (item: string) =>
-    `${pathname === `/${item}` ? 'text-red-500' : 'text-white'} font-roboto text-lg uppercase hover-item`;
+    `${pathname === `/${item}` ? 'text-red-500 dark:text-red-500' : 'text-white'} font-roboto text-lg uppercase hover-item dark:text-black`;
 
   return (
     <nav>

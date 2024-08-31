@@ -1,15 +1,46 @@
-import Image from 'next/image';
+'use client';
 
-import sun from '/public/sun.svg?url';
-import search from '/public/search.svg?url';
+import { useEffect, useState } from 'react';
+
+import Sun from '/public/sun.svg';
+import Moon from '/public/moon.svg';
+import Search from '/public/search.svg';
 
 export interface HeaderBarProps {}
 
 export default function HeaderBar({}: HeaderBarProps) {
+  const [isDarkMode, setIsDarkMode] = useState<boolean>(false);
+
+  useEffect(() => {
+    const savedTheme = localStorage.getItem('theme');
+    if (savedTheme === 'dark') {
+      setIsDarkMode(true);
+      document.documentElement.classList.add('dark');
+    } else {
+      setIsDarkMode(false);
+      document.documentElement.classList.remove('dark');
+    }
+  }, []);
+
+  const toggleTheme = () => {
+    setIsDarkMode(!isDarkMode);
+    if (isDarkMode) {
+      localStorage.setItem('theme', 'light');
+      document.documentElement.classList.remove('dark');
+    } else {
+      localStorage.setItem('theme', 'dark');
+      document.documentElement.classList.add('dark');
+    }
+  };
+
   return (
     <div className='flex gap-8'>
-      <Image src={sun} alt='sun' sizes='8' className='hover-item' />
-      <Image src={search} alt='search' sizes='8' className='hover-item' />
+      {!isDarkMode ? (
+        <Sun className='size-8 hover-item' onClick={toggleTheme} />
+      ) : (
+        <Moon className='size-8 hover-item' onClick={toggleTheme} />
+      )}
+      <Search className='hover-black size-8 fill-current' />
     </div>
   );
 }
