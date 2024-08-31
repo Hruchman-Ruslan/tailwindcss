@@ -6,7 +6,6 @@ body {
   @apply bg-black;
 }
 
-/* Встановлюємо фоновий колір для темного режиму */
 .dark body {
   @apply bg-white;
 }
